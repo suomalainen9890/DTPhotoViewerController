@@ -16,37 +16,12 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hero-mario" translatesAutoresizingMaskIntoConstraints="NO" id="opA-xP-TiP">
-                                <rect key="frame" x="180" y="120" width="240" height="213"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="213" id="nua-Q3-AeH"/>
-                                    <constraint firstAttribute="width" constant="240" id="zBj-e0-qgI"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="opA-xP-TiP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="Gci-3A-GSJ"/>
-                            <constraint firstItem="opA-xP-TiP" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="jhI-tS-tmU"/>
-                            <constraint firstItem="opA-xP-TiP" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="vb4-rc-vad"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="vb4-rc-vad"/>
-                            </mask>
-                        </variation>
                     </view>
-                    <connections>
-                        <outlet property="imageView" destination="opA-xP-TiP" id="wnL-Fh-7wq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="268" y="332"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="hero-mario" width="221" height="294"/>
-    </resources>
 </document>
